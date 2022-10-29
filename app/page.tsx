@@ -4,6 +4,7 @@ import Link from 'next/link';
 export default function Page() {
   return (
     <div className="space-y-6">
+      <h1>Hola</h1>
       <div className="space-y-8 text-white">
         {demos
           .filter((section) =>
